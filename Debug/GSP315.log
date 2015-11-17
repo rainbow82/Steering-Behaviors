@@ -1,0 +1,20 @@
+﻿Build started 1/25/2014 7:20:52 PM.
+     1>Project "C:\Users\bbeac_000\Documents\gsp-315-framework\GSP315.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\GSP315_Beach_courseProject.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_STATIC /D _USE_MATH_DEFINES /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\AIShip.cpp source\Steering.cpp
+         Steering.cpp
+     1>c:\users\bbeac_000\documents\gsp-315-framework\source\steering.cpp(36): error C2676: binary '<' : 'sf::Vector2f' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>c:\users\bbeac_000\documents\gsp-315-framework\source\steering.cpp(42): error C2676: binary '>' : 'sf::Vector2f' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>c:\users\bbeac_000\documents\gsp-315-framework\source\steering.cpp(44): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\bbeac_000\documents\gsp-315-framework\source\steering.cpp(50): error C2065: 'slowRadus' : undeclared identifier
+         Generating Code...
+         Compiling...
+         AIShip.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\bbeac_000\Documents\gsp-315-framework\GSP315.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.01
